@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Valter Leme Advogados | Direito Previdenciário em Mogi das Cruzes</title>
+  <meta name="description" content="Escritório de advocacia especializado em Direito Previdenciário em Mogi das Cruzes: aposentadorias, revisões, BPC/LOAS, auxílio por incapacidade e planejamento previdenciário.">
+  <meta name="theme-color" content="#121826">
+  <meta property="og:title" content="Valter Leme Advogados">
+  <meta property="og:description" content="Direito Previdenciário em Mogi das Cruzes.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ BARRA DE REVISÃO (remover antes de publicar) ============ -->
+<div class="review-bar" id="reviewBar">
+  <span><strong>Modo revisão:</strong> trechos <mark class="rev">destacados</mark> precisam ser confirmados com o Dr. Valter.</span>
+  <button type="button" id="reviewToggle">Ocultar destaques</button>
+</div>
+
+<div class="progress" aria-hidden="true"></div>
+
+<!-- ============ CABEÇALHO ============ -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#inicio" class="brand" aria-label="Valter Leme Advogados, início">
+      <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#mark"/></svg>
+      <span class="brand__text">
+        <span class="brand__name">VALTER LEME</span>
+        <span class="brand__sub">ADVOGADOS</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Menu principal">
+      <a href="#atuacao">Áreas de atuação</a>
+      <a href="#sobre">O advogado</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a href="#contato">Contato</a>
+      <a href="https://wa.me/5511996073244" class="btn btn--gold nav__cta" target="_blank" rel="noopener">Fale conosco</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="container hero__grid">
+      <div class="hero__text reveal">
+        <p class="eyebrow">Direito Previdenciário · Mogi das Cruzes</p>
+        <h1>Seu direito à aposentadoria, conduzido <em>com técnica</em> e atenção.</h1>
+        <p class="lead">
+          Advocacia especializada em Direito Previdenciário. Analisamos seu histórico contributivo,
+          identificamos o melhor benefício possível e acompanhamos cada etapa junto ao INSS e à Justiça.
+        </p>
+        <div class="hero__actions">
+          <a href="https://wa.me/5511996073244?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento." class="btn btn--gold btn--lg" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-whatsapp"/></svg>
+            Agendar atendimento
+          </a>
+          <a href="#atuacao" class="btn btn--ghost btn--lg">Conheça as áreas</a>
+        </div>
+        <ul class="hero__facts">
+          <li><strong><mark class="rev">15+</mark></strong><span>anos de atuação</span></li>
+          <li><strong>OAB/SP</strong><span><mark class="rev">nº 000.000</mark></span></li>
+          <li><strong>Especialista</strong><span>em Direito Previdenciário</span></li>
+        </ul>
+      </div>
+
+      <!-- FOTO 1: retrato principal. Arquivo: img/valter-retrato.jpg (4:5, 1200×1500) -->
+      <figure class="hero__photo reveal">
+        <div class="photo-slot photo-slot--portrait" data-label="FOTO 1 · Retrato do Dr. Valter&#10;Vertical 4:5 · 1200×1500 px&#10;img/valter-retrato.jpg">
+          <img src="img/valter-retrato.jpg" alt="Dr. Valter Leme, advogado previdenciarista" loading="eager" onerror="this.remove()">
+        </div>
+        <figcaption class="hero__badge">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><use href="#mark"/></svg>
+          <span>Dr. Valter Leme<br><small>Advogado · <mark class="rev">OAB/SP 000.000</mark></small></span>
+        </figcaption>
+      </figure>
+    </div>
+    <a href="#atuacao" class="scroll-cue" aria-label="Rolar para baixo"></a>
+  </section>
+
+  <!-- ============ FAIXA DE CONFIANÇA ============ -->
+  <section class="strip" aria-label="Diferenciais">
+    <div class="container strip__inner">
+      <span>Atendimento presencial e online</span>
+      <span>Processos administrativos e judiciais</span>
+      <span>Atuação em todo o Brasil</span>
+      <span>Acompanhamento transparente</span>
+    </div>
+  </section>
+
+  <!-- ============ ÁREAS DE ATUAÇÃO ============ -->
+  <section class="section" id="atuacao">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Áreas de atuação</p>
+        <h2>Como podemos ajudar você</h2>
+        <p>Cada caso começa com um estudo do seu histórico de trabalho e contribuições. É a partir dele que definimos o caminho mais seguro.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 8v4l3 2M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z"/></svg></div>
+          <h3>Aposentadorias</h3>
+          <p>Por idade, tempo de contribuição (regras de transição), especial, da pessoa com deficiência e do professor. Verificamos qual regra resulta no melhor benefício.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M4 4v6h6M20 20v-6h-6M5.5 15a7 7 0 0 0 12.4 2M18.5 9A7 7 0 0 0 6.1 7"/></svg></div>
+          <h3>Revisão de benefícios</h3>
+          <p>Análise de aposentadorias e pensões já concedidas para identificar erros de cálculo, períodos não computados e valores pagos a menor.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10Z"/></svg></div>
+          <h3>BPC / LOAS</h3>
+          <p>Benefício assistencial para idosos a partir de 65 anos e pessoas com deficiência em situação de vulnerabilidade, inclusive em casos de indeferimento.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6V3Z"/></svg></div>
+          <h3>Benefícios por incapacidade</h3>
+          <p>Auxílio por incapacidade temporária (antigo auxílio-doença), aposentadoria por incapacidade permanente e auxílio-acidente, inclusive após alta indevida.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M17 20v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M10 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM21 20v-2a4 4 0 0 0-3-3.9M16 2.1a4 4 0 0 1 0 7.8"/></svg></div>
+          <h3>Pensão por morte</h3>
+          <p>Orientação a cônjuges, companheiros e dependentes na concessão do benefício, incluindo comprovação de união estável e de dependência econômica.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M3 3v18h18M7 15l4-4 3 3 6-6"/></svg></div>
+          <h3>Planejamento previdenciário</h3>
+          <p>Estudo detalhado para quem ainda está contribuindo: quando se aposentar, quanto contribuir e qual regra adotar para alcançar o melhor resultado.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE ============ -->
+  <section class="section section--dark" id="sobre">
+    <div class="container about">
+      <!-- FOTO 2: advogado trabalhando / no escritório. Arquivo: img/valter-escritorio.jpg (3:4, 1200×1600) -->
+      <figure class="about__photo reveal">
+        <div class="photo-slot photo-slot--tall" data-label="FOTO 2 · Dr. Valter no escritório&#10;(à mesa, analisando documentos)&#10;Vertical 3:4 · 1200×1600 px&#10;img/valter-escritorio.jpg">
+          <img src="img/valter-escritorio.jpg" alt="Dr. Valter Leme em seu escritório" loading="lazy" onerror="this.remove()">
+        </div>
+      </figure>
+
+      <div class="about__text reveal">
+        <p class="eyebrow">O advogado</p>
+        <h2>Dr. Valter Leme</h2>
+        <p class="lead">
+          Advogado especialista em Direito Previdenciário, com <mark class="rev">mais de 15 anos</mark> de atuação
+          dedicada a trabalhadores, aposentados e pensionistas.
+        </p>
+        <p>
+          <mark class="rev">Formado em Direito pela [Universidade], pós-graduado em Direito Previdenciário pela [Instituição],
+          inscrito na OAB/SP sob o nº 000.000.</mark> Atua em processos administrativos perante o INSS e em ações judiciais
+          na Justiça Federal e Estadual.
+        </p>
+        <p>
+          Acreditamos que cada segurado merece entender sua própria situação. Por isso, todo atendimento inclui
+          explicações claras sobre as possibilidades do caso, os prazos envolvidos e os documentos necessários.
+        </p>
+        <ul class="checklist">
+          <li><mark class="rev">Pós-graduação em Direito Previdenciário</mark></li>
+          <li><mark class="rev">Membro do IBDP (Instituto Brasileiro de Direito Previdenciário)</mark></li>
+          <li>Atendimento direto com o advogado responsável</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMO FUNCIONA ============ -->
+  <section class="section" id="como-funciona">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">Como funciona</p>
+        <h2>Do primeiro contato ao benefício</h2>
+      </header>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__n">01</span>
+          <h3>Contato inicial</h3>
+          <p>Você nos procura pelo WhatsApp, telefone ou pessoalmente e agendamos o atendimento.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__n">02</span>
+          <h3>Estudo do caso</h3>
+          <p>Analisamos CNIS, carteiras de trabalho, carnês e laudos para entender todo o seu histórico.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__n">03</span>
+          <h3>Estratégia</h3>
+          <p>Apresentamos as alternativas possíveis, com prazos e documentos necessários, de forma transparente.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__n">04</span>
+          <h3>Acompanhamento</h3>
+          <p>Conduzimos o pedido no INSS ou na Justiça e mantemos você informado em cada etapa.</p>
+        </li>
+      </ol>
+
+      <div class="docs reveal">
+        <h3>Documentos que ajudam no primeiro atendimento</h3>
+        <ul>
+          <li>RG e CPF</li>
+          <li>Comprovante de residência</li>
+          <li>Carteiras de trabalho (todas)</li>
+          <li>Extrato CNIS (Meu INSS)</li>
+          <li>Carnês de contribuição</li>
+          <li>Laudos e exames médicos, se houver</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ESCRITÓRIO (FOTO 3) ============ -->
+  <section class="office reveal" aria-label="Nosso escritório">
+    <!-- FOTO 3: ambiente do escritório / recepção. Arquivo: img/escritorio.jpg (16:9, 1920×1080, horizontal) -->
+    <div class="photo-slot photo-slot--wide" data-label="FOTO 3 · Ambiente do escritório (recepção ou sala de reunião)&#10;Horizontal 16:9 · 1920×1080 px&#10;img/escritorio.jpg">
+      <img src="img/escritorio.jpg" alt="Escritório Valter Leme Advogados" loading="lazy" onerror="this.remove()">
+    </div>
+    <div class="office__caption container">
+      <p>Um espaço preparado para receber você com conforto e privacidade.</p>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="duvidas">
+    <div class="container container--narrow">
+      <header class="section__head reveal">
+        <p class="eyebrow">Dúvidas frequentes</p>
+        <h2>Perguntas que recebemos todos os dias</h2>
+      </header>
+
+      <div class="faq">
+        <details class="reveal">
+          <summary>Meu pedido foi negado pelo INSS. Ainda é possível conseguir o benefício?</summary>
+          <p>Em muitos casos, sim. A negativa pode ser contestada por recurso administrativo ou por ação judicial. O primeiro passo é entender o motivo do indeferimento e verificar se há documentos ou provas que não foram considerados.</p>
+        </details>
+        <details class="reveal">
+          <summary>O que mudou com a Reforma da Previdência?</summary>
+          <p>A Emenda Constitucional 103/2019 criou novas idades mínimas, alterou o cálculo dos benefícios e estabeleceu regras de transição para quem já contribuía. Por isso, a escolha da regra correta faz diferença no valor final.</p>
+        </details>
+        <details class="reveal">
+          <summary>O que é o CNIS e como consigo o meu?</summary>
+          <p>O CNIS (Cadastro Nacional de Informações Sociais) reúne seus vínculos de trabalho e contribuições. Ele pode ser emitido pelo aplicativo ou site Meu INSS. Erros no CNIS são comuns e podem reduzir o valor do benefício.</p>
+        </details>
+        <details class="reveal">
+          <summary>Já sou aposentado. Vale a pena revisar meu benefício?</summary>
+          <p>Depende do caso. Há prazos legais para pedir revisão (em regra, 10 anos a partir do primeiro pagamento), e uma análise técnica indica se existe diferença a ser reconhecida.</p>
+        </details>
+        <details class="reveal">
+          <summary>Preciso ir ao escritório ou posso ser atendido online?</summary>
+          <p>As duas opções estão disponíveis. Atendemos presencialmente em Mogi das Cruzes e também por videochamada e WhatsApp, para clientes de qualquer cidade.</p>
+        </details>
+        <details class="reveal">
+          <summary>Como são cobrados os honorários?</summary>
+          <p>Os honorários são definidos de acordo com o tipo de caso e apresentados por escrito em contrato, antes do início do trabalho, conforme a tabela da OAB/SP.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section class="section section--dark" id="contato">
+    <div class="container contact">
+      <div class="contact__text reveal">
+        <p class="eyebrow">Contato</p>
+        <h2>Vamos conversar sobre o seu caso</h2>
+        <p class="lead">Atendimento com hora marcada, presencial ou online.</p>
+
+        <ul class="contact__list">
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-whatsapp"/></svg>
+            <div><small>WhatsApp e telefone</small><a href="https://wa.me/5511996073244" target="_blank" rel="noopener"><mark class="rev">(11) 99607-3244</mark></a></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4zM4 6l8 7 8-7"/></svg>
+            <div><small>E-mail</small><a href="mailto:contato@valterlemeadvogados.com.br"><mark class="rev">contato@valterlemeadvogados.com.br</mark></a></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Zm0-9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/></svg>
+            <div><small>Endereço</small><span><mark class="rev">Rua [Nome], nº [000], sala [00], Centro, Mogi das Cruzes/SP, CEP 08700-000</mark></span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7v5l3 2M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z"/></svg>
+            <div><small>Horário</small><span><mark class="rev">Segunda a sexta, das 9h às 18h</mark></span></div>
+          </li>
+        </ul>
+
+        <a href="https://wa.me/5511996073244?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento." class="btn btn--gold btn--lg" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-whatsapp"/></svg>
+          Chamar no WhatsApp
+        </a>
+      </div>
+
+      <!-- Mapa: substituir pelo iframe "Incorporar mapa" do Google Maps com o endereço real -->
+      <div class="contact__map reveal">
+        <div class="photo-slot photo-slot--map" data-label="MAPA · Google Maps&#10;Cole aqui o iframe de &quot;Incorporar um mapa&quot;&#10;com o endereço do escritório"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ RODAPÉ ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="#inicio" class="brand brand--footer">
+      <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#mark"/></svg>
+      <span class="brand__text">
+        <span class="brand__name">VALTER LEME</span>
+        <span class="brand__sub">ADVOGADOS</span>
+      </span>
+    </a>
+    <p class="footer__legal">
+      Dr. Valter Leme · <mark class="rev">OAB/SP nº 000.000</mark><br>
+      <mark class="rev">Valter Leme Sociedade Individual de Advocacia · OAB/SP nº 00.000 · CNPJ 00.000.000/0001-00</mark>
+    </p>
+    <p class="footer__note">
+      Conteúdo de caráter exclusivamente informativo, em conformidade com o Código de Ética e Disciplina da OAB
+      e o Provimento nº 205/2021. As informações deste site não substituem a análise individual do caso.
+    </p>
+    <p class="footer__copy">© <span id="year"></span> Valter Leme Advogados. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- Botão flutuante de WhatsApp -->
+<a href="https://wa.me/5511996073244?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20atendimento." class="wa-float" target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-whatsapp"/></svg>
+</a>
+
+<!-- Ícones reutilizáveis -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="mark" viewBox="0 0 64 64">
+      <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square">
+        <path d="M4 32h56"/>
+        <path d="M27 4v20M37 4v20M27 40v20M37 40v20"/>
+        <path d="M14 10l13 14M50 10L37 24M14 54l13-14M50 54L37 40"/>
+      </g>
+    </symbol>
+    <symbol id="ico-whatsapp" viewBox="0 0 24 24">
+      <path fill="currentColor" stroke="none" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
